@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo 9 - Uso das Tags de Imagem e Vídeo</h1>
+    <p>
+        Este exemplo mostra diferentes formas de usar as tags <code>&lt;img&gt;</code> e <code>&lt;vídeo&gt;</code>, incluindo o uso de <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code> para agrupar mídias com legendas.
+    </p>
+
+    <h2>Descrição</h2>
+    <p>
+        As tags abordadas são:
+    </p>
+    <ul>
+        <li><strong>&lt;img&gt;</strong>: Usada para inserir imagens na página.</li>
+        <li><strong>&lt;vídeo&gt;</strong>: Usada para inserir vídeos na página.</li>
+        <li><strong>&lt;figure&gt;</strong>: Usada para agrupar mídias (imagens, vídeos, gráficos) com uma legenda.</li>
+        <li><strong>&lt;figcation&gt;</strong>: Usada para adicionar uma legenda ao conteúdo dentro de <code>&lt;figure&gt;</code>.</li>
+    </ul>
+    <h2>Exemplos Práticos</h2>
+    <h3>Imagem usando os atributos img, figure e figcaption</h3>
+    <p>Uma imagem agrupadacom legenda discritiva</p>
+    <figure>
+        <img controls width="400" src="Lucid_Origin_A_majestic_white_wolf_with_a_thick_coat_of_snowy__3.jpg" alt="Imagem de um Lobo Branco">
+        <figcaption>Figura1: Lobo Branco</figcaption>
+    </figure>
+    <h3>Vídeo com legenda usando &lt;figure&gt; e &lt;figcation&gt;</h3>
+    <p>Exemplo do uso da tag vídeo com legenda agrupada.</p>
+    <figure>
+        <video controls width="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </figure>
+    <h3>Incoporação de Vídeos do YouTube usando a tag &lt;iframe&gt;</h3>
+    <p>Neste exemplo vamos usar dois vídeos do YouTube lado a lado usando a tag &lt;iframe&gt;</p>
+<div>
+    <figure>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/LcYEtuTZGYk?list=RDLcYEtuTZGYk" title="Eu Navegarei | Cover" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <figcaption>Eu Naveguei</figcaption>
+    </figure>
+    <figure>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/daKU7soXDAU?list=RDdaKU7soXDAU" title="MATHEUS RIZZO E CURITIBA CORAL - ALÉM DO RIO AZUL (live cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+        <figcaption>Além do Rio Azul</figcaption>
+    </figure>
+</div>
+</body>
+</html>
